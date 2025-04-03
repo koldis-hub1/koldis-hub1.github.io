@@ -1,0 +1,81 @@
+body {
+    background-color: green;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, .content, footer {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+}
+
+header h1 {
+    text-align: center;
+    margin:1px
+}
+
+header h3{
+text-aligin:center;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: black;
+}
+
+
+#kvetina {
+    
+    width:10%;
+    border:5px dashed;
+    border-radius:4px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+a {
+    
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
+
+.hneda{
+color:brown;
+}
+
+.zluta{
+color:yellow;
+}
+
+.cervena{
+color:red;
+}
+
+.container {
+    display: flex;
+    justify-content:left;
+    align-items:left;
+}
+
